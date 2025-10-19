@@ -10,7 +10,21 @@ This project started as a school assignment where the goal was to build a simple
   - Exit the program.
 - Printed the full course list in alphanumeric order.
 - Printed detailed information (title and prerequisites) for any course the user requested.
-- Applied standard best practices: error handling for invalid input, readable naming, and inline comments to explain the logic.
+- Applied standard best practices: error handling for invalid input, readable naming, and inline comments to explain the logic
+
+## Course Advisor CLI
+<img width="759" height="331" alt="Screenshot 2025-10-19 at 4 19 57 AM" src="https://github.com/user-attachments/assets/6a151e59-5f75-45f0-8cc5-3148ab763268" />
+
+<img width="550" height="537" alt="Screenshot 2025-10-19 at 4 20 33 AM" src="https://github.com/user-attachments/assets/cabcce1d-2e9a-43ab-8422-34f827a68871" />
+
+<img width="509" height="336" alt="Screenshot 2025-10-19 at 4 21 24 AM" src="https://github.com/user-attachments/assets/36f152cc-b900-480e-8571-81e9a346cb0d" />
+
+## Course Advisor QT Dashboard
+
+<img width="955" height="628" alt="Screenshot 2025-10-19 at 4 19 30 AM" src="https://github.com/user-attachments/assets/f3d9cd35-19e8-4a13-9a9c-ea0e7ef09cfd" />
+
+
+
 
 ## Enhancements Beyond the Rubric
 
