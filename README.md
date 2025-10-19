@@ -19,6 +19,10 @@ This project started as a school assignment where the goal was to build a simple
 
 <img width="509" height="336" alt="Screenshot 2025-10-19 at 4 21 24 AM" src="https://github.com/user-attachments/assets/36f152cc-b900-480e-8571-81e9a346cb0d" />
 
+# Swapping Course Advisor Cli Menu Style
+
+<img width="859" height="355" alt="Screenshot 2025-10-19 at 4 24 19 AM" src="https://github.com/user-attachments/assets/e13cb08e-0acb-47f5-b619-3f3f58b4220f" />
+
 ## Course Advisor QT Dashboard
 
 <img width="955" height="628" alt="Screenshot 2025-10-19 at 4 19 30 AM" src="https://github.com/user-attachments/assets/f3d9cd35-19e8-4a13-9a9c-ea0e7ef09cfd" />
