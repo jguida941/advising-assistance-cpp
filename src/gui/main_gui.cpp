@@ -1,8 +1,10 @@
-#include "catalog.hpp"
-#include "mainwindow.hpp"
+#include "catalog/catalog.hpp"
+#include "gui/mainwindow.hpp"
 
 #include <QApplication>
 
+// Qt entry point: optionally preload a CSV (allows the CLI to hand off state) then
+// start the dashboard event loop.
 int main(int argc, char** argv) {
     QApplication app(argc, argv);
 

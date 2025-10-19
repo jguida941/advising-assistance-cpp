@@ -4,9 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/jguida941/final_project -isystem /Users/jguida941/final_project/build/advisor_cli_autogen/include
+CXX_INCLUDES = -I/Users/jguida941/final_project/include -isystem /Users/jguida941/final_project/build/advisor_cli_autogen/include
 
-CXX_FLAGSarm64 = -std=gnu++20 -arch arm64
-
-CXX_FLAGS = -std=gnu++20 -arch arm64
+CXX_FLAGS = -std=gnu++20
 

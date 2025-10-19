@@ -1,4 +1,4 @@
-#include "catalog.hpp"
+#include "catalog/catalog.hpp"
 
 #include <algorithm>
 #include <cctype>
@@ -93,6 +93,11 @@ std::optional<std::filesystem::path> resolveCourseFilePath(const std::string& fi
         const fs::path candidate = searchDir / requested;
         if (fs::exists(candidate)) {
             return fs::absolute(candidate);
+        }
+
+        const fs::path dataCandidate = searchDir / "data" / requested;
+        if (fs::exists(dataCandidate)) {
+            return fs::absolute(dataCandidate);
         }
 
         if (!searchDir.has_parent_path()) {

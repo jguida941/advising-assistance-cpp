@@ -16,7 +16,8 @@
 			"include",
 			"find_package",
 			"find_dependency",
-			"_qt_internal_find_qt_dependencies"
+			"_qt_internal_find_qt_dependencies",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -40,13 +41,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 25,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 30,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
@@ -164,6 +165,12 @@
 				"file" : 9,
 				"line" : 62,
 				"parent" : 23
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
 			}
 		]
 	},
@@ -212,8 +219,8 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 2,
-					"path" : "/Users/jguida941/final_project"
+					"backtrace" : 25,
+					"path" : "/Users/jguida941/final_project/include"
 				},
 				{
 					"backtrace" : 0,
@@ -268,15 +275,15 @@
 	"dependencies" : 
 	[
 		{
+			"backtrace" : 2,
+			"id" : "catalog_core::@6890427a1f51a3e7e1df"
+		},
+		{
 			"id" : "advisor_gui_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,
 			"id" : "advisor_gui_autogen::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "catalog_core::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "advisor_gui::@6890427a1f51a3e7e1df",
@@ -378,17 +385,25 @@
 			]
 		},
 		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				4,
+				5
+			]
+		},
+		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				4
+				6
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				5
+				7
 			]
 		}
 	],
@@ -404,32 +419,42 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main_gui.cpp",
+			"path" : "src/gui/main_gui.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "mainwindow.cpp",
+			"path" : "src/gui/mainwindow.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "models.cpp",
+			"path" : "src/gui/models.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "cmake-build-debug/advisor_gui_autogen/timestamp",
+			"backtrace" : 1,
+			"path" : "include/gui/mainwindow.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/gui/models.hpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/advisor_gui_autogen/timestamp.rule",
+			"path" : "cmake-build-debug/advisor_gui_autogen/timestamp",
 			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/advisor_gui_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
 		}
 	],
 	"type" : "EXECUTABLE"

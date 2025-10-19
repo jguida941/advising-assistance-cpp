@@ -934,12 +934,12 @@ advisor_gui_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX15
   CMakeFiles/4.1.1/CMakeCXXCompiler.cmake \
   CMakeFiles/4.1.1/CMakeSystem.cmake \
   advisor_gui_autogen/moc_predefs.h \
-  /Users/jguida941/final_project/catalog.hpp \
-  /Users/jguida941/final_project/main_gui.cpp \
-  /Users/jguida941/final_project/mainwindow.cpp \
-  /Users/jguida941/final_project/mainwindow.hpp \
-  /Users/jguida941/final_project/models.cpp \
-  /Users/jguida941/final_project/models.hpp \
+  /Users/jguida941/final_project/include/catalog/catalog.hpp \
+  /Users/jguida941/final_project/include/gui/mainwindow.hpp \
+  /Users/jguida941/final_project/include/gui/models.hpp \
+  /Users/jguida941/final_project/src/gui/main_gui.cpp \
+  /Users/jguida941/final_project/src/gui/mainwindow.cpp \
+  /Users/jguida941/final_project/src/gui/models.cpp \
   /opt/homebrew/Cellar/qt/6.9.2/lib/QtCore.framework/Versions/A/Headers/QAbstractListModel \
   /opt/homebrew/Cellar/qt/6.9.2/lib/QtCore.framework/Versions/A/Headers/QModelIndex \
   /opt/homebrew/Cellar/qt/6.9.2/lib/QtCore.framework/Versions/A/Headers/QString \
@@ -1943,9 +1943,9 @@ advisor_gui_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX15
 
 /opt/homebrew/Cellar/qt/6.9.2/lib/QtCore.framework/Versions/A/Headers/QAbstractListModel:
 
-/Users/jguida941/final_project/main_gui.cpp:
+/Users/jguida941/final_project/src/gui/main_gui.cpp:
 
-/Users/jguida941/final_project/catalog.hpp:
+/Users/jguida941/final_project/include/gui/mainwindow.hpp:
 
 CMakeFiles/4.1.1/CMakeSystem.cmake:
 
@@ -2378,8 +2378,6 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/is_implicitly_default_constructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/is_floating_point.h:
-
-/Users/jguida941/final_project/mainwindow.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/is_assignable.h:
 
@@ -2849,6 +2847,10 @@ advisor_gui_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__utility/is_pointer_in_range.h:
 
+/Users/jguida941/final_project/src/gui/models.cpp:
+
+/Users/jguida941/final_project/include/gui/models.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/shuffle.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__iterator/data.h:
@@ -3037,8 +3039,6 @@ advisor_gui_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/binary_negate.h:
 
-/Users/jguida941/final_project/models.cpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/write_escaped.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__utility/to_underlying.h:
@@ -3074,8 +3074,6 @@ advisor_gui_autogen/moc_predefs.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__mutex/unique_lock.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/format_functions.h:
-
-/Users/jguida941/final_project/models.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/remove_extent.h:
 
@@ -3390,6 +3388,8 @@ advisor_gui_autogen/moc_predefs.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/unwrap_range.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/minmax_element.h:
+
+/Users/jguida941/final_project/src/gui/mainwindow.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/unwrap_iter.h:
 
@@ -4097,6 +4097,8 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /opt/homebrew/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-release.cmake:
 
+/Users/jguida941/final_project/include/catalog/catalog.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/find_if_not.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/copy.h:
@@ -4114,8 +4116,6 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__compare/synth_three_way.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/AvailabilityInternal.h:
-
-/Users/jguida941/final_project/mainwindow.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__functional/binary_function.h:
 

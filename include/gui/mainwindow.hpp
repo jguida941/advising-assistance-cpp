@@ -1,7 +1,7 @@
 #pragma once
 
-#include "catalog.hpp"
-#include "models.hpp"
+#include "catalog/catalog.hpp"
+#include "gui/models.hpp"
 
 #include <QMainWindow>
 #include <QModelIndex>
@@ -15,6 +15,7 @@ class QListWidgetItem;
 class QStatusBar;
 class QTimer;
 
+// Qt dashboard window that mirrors the CLI features with a point-and-click UI.
 class MainWindow : public QMainWindow {
     Q_OBJECT
 
@@ -23,20 +24,33 @@ public:
     ~MainWindow() override;
 
 private slots:
+    // Prompts for a catalog file and loads it into the shared catalog instance.
     void openCatalog();
-    void reloadCatalog();
+    // Re-runs the load using the most recently opened file so edits are picked up.
+   void reloadCatalog();
+    // Updates the detail pane when the list view selection changes.
     void handleCourseSelection(const QModelIndex& index);
+    // Debounces user typing in the search field before kicking off a lookup.
     void handleSearchEdited(const QString& text);
+    // Looks up the active search text and syncs the selection.
     void performSearch();
+    // Double-clicking a prerequisite jumps straight to that course.
     void handlePrerequisiteActivated(QListWidgetItem* item);
-    void showMissingPrerequisites();
+    // Displays any prerequisites that were missing in the source CSV.
+   void showMissingPrerequisites();
 
 private:
+    // Builds the menu bar actions for file handling and warnings.
     void createMenus();
+    // Lays out the search field, list view, detail pane, and warnings list.
     void createLayout();
+    // Core helper that loads the given CSV path and refreshes UI state.
     void loadCatalogFromPath(const QString& path);
+    // Fills the right-hand pane with details about the active course.
     void populateCourseDetails(const Course* course);
+    // Replaces the list model contents with the current sorted IDs.
     void refreshCourseList();
+    // Updates the status bar with the last load result.
     void updateStatusFromLoad(const LoadResult& result);
     void updateWarningsPane(const LoadResult& result);
 

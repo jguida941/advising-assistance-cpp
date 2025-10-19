@@ -5,8 +5,7 @@ catalog_core_autogen/timestamp: /Users/jguida941/final_project/CMakeLists.txt \
   CMakeFiles/4.1.1/CMakeCCompiler.cmake \
   CMakeFiles/4.1.1/CMakeCXXCompiler.cmake \
   CMakeFiles/4.1.1/CMakeSystem.cmake \
-  /Users/jguida941/final_project/catalog.cpp \
-  /Users/jguida941/final_project/catalog.hpp \
+  /Users/jguida941/final_project/src/catalog/catalog.cpp \
   /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/FindWrapAtomic.cmake \
   /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/FindWrapOpenGL.cmake \
   /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
@@ -442,9 +441,9 @@ catalog_core_autogen/timestamp: /Users/jguida941/final_project/CMakeLists.txt \
 
 /opt/homebrew/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake:
 
-/opt/homebrew/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake:
-
 /opt/homebrew/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake:
+
+/opt/homebrew/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake:
 
 /opt/homebrew/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake:
 
@@ -468,9 +467,9 @@ catalog_core_autogen/timestamp: /Users/jguida941/final_project/CMakeLists.txt \
 
 /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake:
 
-/opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtPublicToolHelpers.cmake:
-
 /opt/homebrew/lib/cmake/Qt6CorePrivate/Qt6CorePrivateTargets.cmake:
+
+/opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtPublicToolHelpers.cmake:
 
 /opt/homebrew/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake:
 
@@ -640,9 +639,9 @@ catalog_core_autogen/timestamp: /Users/jguida941/final_project/CMakeLists.txt \
 
 /opt/homebrew/share/cmake/Modules/Linker/AppleClang.cmake:
 
-/opt/homebrew/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-release.cmake:
-
 /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
+
+/opt/homebrew/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-release.cmake:
 
 /opt/homebrew/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake:
 
@@ -657,8 +656,6 @@ catalog_core_autogen/timestamp: /Users/jguida941/final_project/CMakeLists.txt \
 /opt/homebrew/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake:
 
 /opt/homebrew/lib/cmake/Qt6CorePrivate/Qt6CorePrivateVersionlessAliasTargets.cmake:
-
-/opt/homebrew/lib/cmake/Qt6Gui/Qt6QMngPluginConfig.cmake:
 
 /opt/homebrew/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake:
 
@@ -770,10 +767,6 @@ catalog_core_autogen/timestamp: /Users/jguida941/final_project/CMakeLists.txt \
 
 /opt/homebrew/lib/cmake/Qt6Core/Qt6CoreTargets.cmake:
 
-/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:
-
-/opt/homebrew/lib/cmake/Qt6/QtInstallPaths.cmake:
-
 /opt/homebrew/lib/cmake/Qt6/Qt6Targets.cmake:
 
 /opt/homebrew/lib/cmake/Qt6Gui/Qt6QMacHeifPluginAdditionalTargetInfo.cmake:
@@ -781,6 +774,10 @@ catalog_core_autogen/timestamp: /Users/jguida941/final_project/CMakeLists.txt \
 /opt/homebrew/share/cmake/Modules/CheckCSourceCompiles.cmake:
 
 /opt/homebrew/bin/cmake:
+
+/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:
+
+/opt/homebrew/lib/cmake/Qt6/QtInstallPaths.cmake:
 
 /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake:
 
@@ -816,6 +813,8 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/FindWrapAtomic.cmake:
 
+/Users/jguida941/final_project/src/catalog/catalog.cpp:
+
 /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake:
 
 /opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake:
@@ -829,6 +828,30 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 /opt/homebrew/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake:
 
 /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/GNU.cmake:
+
+/opt/homebrew/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersionImpl.cmake:
+
+/opt/homebrew/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/AppleClang-CXX.cmake:
+
+/opt/homebrew/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets.cmake:
+
+/opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtPublicAppleHelpers.cmake:
+
+/opt/homebrew/lib/cmake/Qt6Gui/Qt6QMngPluginConfig.cmake:
+
+/opt/homebrew/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateAdditionalTargetInfo.cmake:
+
+/opt/homebrew/lib/cmake/Qt6/Qt6Dependencies.cmake:
+
+/opt/homebrew/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake:
+
+CMakeFiles/4.1.1/CMakeSystem.cmake:
+
+/opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake:
 
 /opt/homebrew/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets-release.cmake:
 
@@ -860,10 +883,6 @@ CMakeFiles/4.1.1/CMakeCCompiler.cmake:
 
 /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
 
-/opt/homebrew/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake:
-
-CMakeFiles/4.1.1/CMakeSystem.cmake:
-
 /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:
 
 /opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake:
@@ -888,38 +907,16 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /opt/homebrew/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake:
 
-/Users/jguida941/final_project/catalog.cpp:
-
 /opt/homebrew/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
 
 /opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:
 
-/opt/homebrew/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateAdditionalTargetInfo.cmake:
-
-/opt/homebrew/lib/cmake/Qt6/Qt6Dependencies.cmake:
-
 /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:
 
-/opt/homebrew/share/cmake/Modules/Compiler/AppleClang-CXX.cmake:
-
-/opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtPublicAppleHelpers.cmake:
-
-/opt/homebrew/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets.cmake:
-
 /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake:
-
-/opt/homebrew/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake:
 
 /opt/homebrew/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-release.cmake:
 
 /opt/homebrew/share/cmake/Modules/Linker/AppleClang-CXX.cmake:
 
 /Users/jguida941/final_project/CMakeLists.txt:
-
-/opt/homebrew/share/cmake/Modules/Compiler/GNU.cmake:
-
-/opt/homebrew/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersionImpl.cmake:
-
-/opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake:
-
-/Users/jguida941/final_project/catalog.hpp:

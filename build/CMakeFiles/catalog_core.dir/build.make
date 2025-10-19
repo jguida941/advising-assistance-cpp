@@ -86,30 +86,30 @@ CMakeFiles/catalog_core.dir/catalog_core_autogen/mocs_compilation.cpp.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/catalog_core.dir/catalog_core_autogen/mocs_compilation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jguida941/final_project/build/catalog_core_autogen/mocs_compilation.cpp -o CMakeFiles/catalog_core.dir/catalog_core_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/catalog_core.dir/catalog.cpp.o: CMakeFiles/catalog_core.dir/flags.make
-CMakeFiles/catalog_core.dir/catalog.cpp.o: /Users/jguida941/final_project/catalog.cpp
-CMakeFiles/catalog_core.dir/catalog.cpp.o: CMakeFiles/catalog_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jguida941/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/catalog_core.dir/catalog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/catalog_core.dir/catalog.cpp.o -MF CMakeFiles/catalog_core.dir/catalog.cpp.o.d -o CMakeFiles/catalog_core.dir/catalog.cpp.o -c /Users/jguida941/final_project/catalog.cpp
+CMakeFiles/catalog_core.dir/src/catalog/catalog.cpp.o: CMakeFiles/catalog_core.dir/flags.make
+CMakeFiles/catalog_core.dir/src/catalog/catalog.cpp.o: /Users/jguida941/final_project/src/catalog/catalog.cpp
+CMakeFiles/catalog_core.dir/src/catalog/catalog.cpp.o: CMakeFiles/catalog_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jguida941/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/catalog_core.dir/src/catalog/catalog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/catalog_core.dir/src/catalog/catalog.cpp.o -MF CMakeFiles/catalog_core.dir/src/catalog/catalog.cpp.o.d -o CMakeFiles/catalog_core.dir/src/catalog/catalog.cpp.o -c /Users/jguida941/final_project/src/catalog/catalog.cpp
 
-CMakeFiles/catalog_core.dir/catalog.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/catalog_core.dir/catalog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jguida941/final_project/catalog.cpp > CMakeFiles/catalog_core.dir/catalog.cpp.i
+CMakeFiles/catalog_core.dir/src/catalog/catalog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/catalog_core.dir/src/catalog/catalog.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jguida941/final_project/src/catalog/catalog.cpp > CMakeFiles/catalog_core.dir/src/catalog/catalog.cpp.i
 
-CMakeFiles/catalog_core.dir/catalog.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/catalog_core.dir/catalog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jguida941/final_project/catalog.cpp -o CMakeFiles/catalog_core.dir/catalog.cpp.s
+CMakeFiles/catalog_core.dir/src/catalog/catalog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/catalog_core.dir/src/catalog/catalog.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jguida941/final_project/src/catalog/catalog.cpp -o CMakeFiles/catalog_core.dir/src/catalog/catalog.cpp.s
 
 # Object files for target catalog_core
 catalog_core_OBJECTS = \
 "CMakeFiles/catalog_core.dir/catalog_core_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/catalog_core.dir/catalog.cpp.o"
+"CMakeFiles/catalog_core.dir/src/catalog/catalog.cpp.o"
 
 # External object files for target catalog_core
 catalog_core_EXTERNAL_OBJECTS =
 
 libcatalog_core.a: CMakeFiles/catalog_core.dir/catalog_core_autogen/mocs_compilation.cpp.o
-libcatalog_core.a: CMakeFiles/catalog_core.dir/catalog.cpp.o
+libcatalog_core.a: CMakeFiles/catalog_core.dir/src/catalog/catalog.cpp.o
 libcatalog_core.a: CMakeFiles/catalog_core.dir/build.make
 libcatalog_core.a: CMakeFiles/catalog_core.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jguida941/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libcatalog_core.a"

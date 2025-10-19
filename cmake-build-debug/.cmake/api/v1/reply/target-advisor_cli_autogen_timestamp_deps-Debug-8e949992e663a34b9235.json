@@ -21,9 +21,9 @@
 			"id" : "catalog_core::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "final_project_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+	"id" : "advisor_cli_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
 	"isGeneratorProvided" : true,
-	"name" : "final_project_autogen_timestamp_deps",
+	"name" : "advisor_cli_autogen_timestamp_deps",
 	"paths" : 
 	{
 		"build" : ".",

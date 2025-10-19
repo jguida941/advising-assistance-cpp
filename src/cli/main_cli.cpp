@@ -1,4 +1,4 @@
-#include "catalog.hpp"
+#include "catalog/catalog.hpp"
 
 #include <algorithm>
 #include <cctype>
@@ -15,7 +15,7 @@ namespace {
 
 // Default CSV file name bundled with the project. Keeping it constexpr just means
 // the value never changes and can be reused anywhere we need the default name.
-constexpr char kDefaultCourseCSVFile[] = "CS 300 ABCU_Advising_Program_Input.csv";
+constexpr char kDefaultCourseCSVFile[] = "data/CS 300 ABCU_Advising_Program_Input.csv";
 
 // Tracks whether any course data has been loaded in this session.
 bool loadedData = false;
@@ -502,6 +502,16 @@ void handleCourseLookup() {
     printCourseDetails(*locatedCourse);
 }
 
+// Pauses so the user can read results before the menu redraws.
+void waitForEnter() {
+    if (!std::cin.good() && !std::cin.eof()) {
+        std::cin.clear();
+    }
+    std::cout << ansi(TextStyle::Prompt) << "Press Enter to continue..." << ansi(TextStyle::Reset) << std::flush;
+    std::string pause;
+    std::getline(std::cin, pause);
+}
+
 /**
  * Helper that launches the Qt dashboard binary. When a catalog is already loaded
  * we pass the resolved path so the GUI can hydrate immediately.
@@ -599,24 +609,30 @@ void runMenu() {
             }
 
             loadCoursesFromFile(fileName);
+            waitForEnter();
         } else if (choice == "2") {
             if (!loadedData) {
                 std::cout << ansi(TextStyle::Warning)
                           << "Please load courses first (option 1).\n"
                           << ansi(TextStyle::Reset);
+                waitForEnter();
                 continue;
             }
             printAllCourses();
+            waitForEnter();
         } else if (choice == "3") {
             if (!loadedData) {
                 std::cout << ansi(TextStyle::Warning)
                           << "Please load courses first (option 1).\n"
                           << ansi(TextStyle::Reset);
+                waitForEnter();
                 continue;
             }
             handleCourseLookup();
+            waitForEnter();
         } else if (choice == "4") {
             launchDashboard();
+            waitForEnter();
         } else if (choice == "9") {
             std::cout << ansi(TextStyle::Success) << "Goodbye.\n" << ansi(TextStyle::Reset);
             break;
@@ -624,6 +640,7 @@ void runMenu() {
             std::cout << ansi(TextStyle::Error)
                       << "Error, please enter option 1, 2, 3, 4, or 9.\n"
                       << ansi(TextStyle::Reset);
+            waitForEnter();
         }
     }
 }

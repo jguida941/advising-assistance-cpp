@@ -5,7 +5,7 @@ advisor_cli_autogen/timestamp: /Users/jguida941/final_project/CMakeLists.txt \
   CMakeFiles/4.1.1/CMakeCCompiler.cmake \
   CMakeFiles/4.1.1/CMakeCXXCompiler.cmake \
   CMakeFiles/4.1.1/CMakeSystem.cmake \
-  /Users/jguida941/final_project/main_cli.cpp \
+  /Users/jguida941/final_project/src/cli/main_cli.cpp \
   /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/FindWrapAtomic.cmake \
   /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/FindWrapOpenGL.cmake \
   /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
@@ -423,8 +423,6 @@ advisor_cli_autogen/timestamp: /Users/jguida941/final_project/CMakeLists.txt \
 
 /opt/homebrew/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake:
 
-/opt/homebrew/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake:
-
 /opt/homebrew/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-release.cmake:
 
 /opt/homebrew/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake:
@@ -813,6 +811,10 @@ CMakeFiles/4.1.1/CMakeCXXCompiler.cmake:
 
 /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/FindWrapAtomic.cmake:
 
+/opt/homebrew/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake:
+
+/Users/jguida941/final_project/src/cli/main_cli.cpp:
+
 /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake:
 
 /opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake:
@@ -863,6 +865,10 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 
 /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
 
+/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake:
+
+/opt/homebrew/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake:
+
 /opt/homebrew/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginConfig.cmake:
 
 /opt/homebrew/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-release.cmake:
@@ -874,10 +880,6 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake:
 
 /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake:
-
-/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake:
-
-/opt/homebrew/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake:
 
 /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
 
@@ -900,8 +902,6 @@ CMakeFiles/4.1.1/CMakeSystem.cmake:
 /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/QtFeatureCommon.cmake:
 
 /opt/homebrew/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-release.cmake:
-
-/Users/jguida941/final_project/main_cli.cpp:
 
 /opt/homebrew/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake:
 

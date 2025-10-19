@@ -6,8 +6,7 @@
  /Users/jguida941/final_project/build/CMakeFiles/4.1.1/CMakeCCompiler.cmake
  /Users/jguida941/final_project/build/CMakeFiles/4.1.1/CMakeCXXCompiler.cmake
  /Users/jguida941/final_project/build/CMakeFiles/4.1.1/CMakeSystem.cmake
- /Users/jguida941/final_project/catalog.cpp
- /Users/jguida941/final_project/catalog.hpp
+ /Users/jguida941/final_project/src/catalog/catalog.cpp
  /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/FindWrapAtomic.cmake
  /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/FindWrapOpenGL.cmake
  /opt/homebrew/Cellar/qt/6.9.2/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake

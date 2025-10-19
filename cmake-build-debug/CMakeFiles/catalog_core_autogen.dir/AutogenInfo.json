@@ -402,15 +402,7 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "/Users/jguida941/final_project/cmake-build-debug/catalog_core_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "catalog_core_autogen/timestamp",
-	"HEADERS" : 
-	[
-		[
-			"/Users/jguida941/final_project/catalog.hpp",
-			"MU",
-			"EWIEGA46WW/moc_catalog.cpp",
-			null
-		]
-	],
+	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/Users/jguida941/final_project/cmake-build-debug/catalog_core_autogen/include",
 	"MOC_COMPILATION_FILE" : "/Users/jguida941/final_project/cmake-build-debug/catalog_core_autogen/mocs_compilation.cpp",
@@ -424,7 +416,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/Users/jguida941/final_project",
+		"/Users/jguida941/final_project/include",
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1",
 		"/Library/Developer/CommandLineTools/usr/lib/clang/16/include",
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include",
@@ -463,7 +455,7 @@
 	"SETTINGS_FILE" : "/Users/jguida941/final_project/cmake-build-debug/CMakeFiles/catalog_core_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/Users/jguida941/final_project/catalog.cpp", "MU", null ]
+		[ "/Users/jguida941/final_project/src/catalog/catalog.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

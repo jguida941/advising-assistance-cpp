@@ -1,8 +1,8 @@
 CMakeFiles/advisor_gui.dir/advisor_gui_autogen/mocs_compilation.cpp.o: \
   /Users/jguida941/final_project/build/advisor_gui_autogen/mocs_compilation.cpp \
-  /Users/jguida941/final_project/build/advisor_gui_autogen/EWIEGA46WW/moc_mainwindow.cpp \
-  /Users/jguida941/final_project/build/advisor_gui_autogen/EWIEGA46WW/../../../mainwindow.hpp \
-  /Users/jguida941/final_project/build/advisor_gui_autogen/EWIEGA46WW/../../../catalog.hpp \
+  /Users/jguida941/final_project/build/advisor_gui_autogen/BMPI5EA7AM/moc_mainwindow.cpp \
+  /Users/jguida941/final_project/build/advisor_gui_autogen/BMPI5EA7AM/../../../include/gui/mainwindow.hpp \
+  /Users/jguida941/final_project/include/catalog/catalog.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assertion_handler \
@@ -910,7 +910,7 @@ CMakeFiles/advisor_gui.dir/advisor_gui_autogen/mocs_compilation.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temp_value.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/jguida941/final_project/build/advisor_gui_autogen/EWIEGA46WW/../../../models.hpp \
+  /Users/jguida941/final_project/include/gui/models.hpp \
   /opt/homebrew/lib/QtCore.framework/Headers/QAbstractListModel \
   /opt/homebrew/lib/QtCore.framework/Headers/qabstractitemmodel.h \
   /opt/homebrew/include/QtCore/qcompare.h \
@@ -1180,4 +1180,5 @@ CMakeFiles/advisor_gui.dir/advisor_gui_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/include/QtCore/qtmocconstants.h \
   /opt/homebrew/include/QtCore/q20algorithm.h \
   /opt/homebrew/include/QtCore/q23type_traits.h \
-  /Users/jguida941/final_project/build/advisor_gui_autogen/EWIEGA46WW/moc_models.cpp
+  /Users/jguida941/final_project/build/advisor_gui_autogen/BMPI5EA7AM/moc_models.cpp \
+  /Users/jguida941/final_project/build/advisor_gui_autogen/BMPI5EA7AM/../../../include/gui/models.hpp

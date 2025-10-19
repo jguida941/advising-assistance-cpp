@@ -1012,11 +1012,12 @@ CMakeFiles/advisor_gui.dir/advisor_gui_autogen/mocs_compilation.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdbool.h
  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h
- /Users/jguida941/final_project/catalog.hpp
- /Users/jguida941/final_project/mainwindow.hpp
- /Users/jguida941/final_project/models.hpp
- /Users/jguida941/final_project/build/advisor_gui_autogen/EWIEGA46WW/moc_mainwindow.cpp
- /Users/jguida941/final_project/build/advisor_gui_autogen/EWIEGA46WW/moc_models.cpp
+ /Users/jguida941/final_project/include/gui/mainwindow.hpp
+ /Users/jguida941/final_project/include/gui/models.hpp
+ /Users/jguida941/final_project/build/advisor_gui_autogen/BMPI5EA7AM/moc_mainwindow.cpp
+ /Users/jguida941/final_project/build/advisor_gui_autogen/BMPI5EA7AM/moc_models.cpp
+ /Users/jguida941/final_project/include/catalog/catalog.hpp
+ /Users/jguida941/final_project/include/gui/models.hpp
  /opt/homebrew/include/QtCore/q17memory.h
  /opt/homebrew/include/QtCore/q20algorithm.h
  /opt/homebrew/include/QtCore/q20functional.h
@@ -1185,8 +1186,8 @@ CMakeFiles/advisor_gui.dir/advisor_gui_autogen/mocs_compilation.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
 
-CMakeFiles/advisor_gui.dir/main_gui.cpp.o
- /Users/jguida941/final_project/main_gui.cpp
+CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.o
+ /Users/jguida941/final_project/src/gui/main_gui.cpp
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h
@@ -2196,9 +2197,9 @@ CMakeFiles/advisor_gui.dir/main_gui.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdbool.h
  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h
- /Users/jguida941/final_project/catalog.hpp
- /Users/jguida941/final_project/mainwindow.hpp
- /Users/jguida941/final_project/models.hpp
+ /Users/jguida941/final_project/include/catalog/catalog.hpp
+ /Users/jguida941/final_project/include/gui/mainwindow.hpp
+ /Users/jguida941/final_project/include/gui/models.hpp
  /opt/homebrew/include/QtCore/q17memory.h
  /opt/homebrew/include/QtCore/q20functional.h
  /opt/homebrew/include/QtCore/q20iterator.h
@@ -2378,8 +2379,8 @@ CMakeFiles/advisor_gui.dir/main_gui.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
 
-CMakeFiles/advisor_gui.dir/mainwindow.cpp.o
- /Users/jguida941/final_project/mainwindow.cpp
+CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.o
+ /Users/jguida941/final_project/src/gui/mainwindow.cpp
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h
@@ -3407,9 +3408,9 @@ CMakeFiles/advisor_gui.dir/mainwindow.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdbool.h
  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h
- /Users/jguida941/final_project/catalog.hpp
- /Users/jguida941/final_project/mainwindow.hpp
- /Users/jguida941/final_project/models.hpp
+ /Users/jguida941/final_project/include/catalog/catalog.hpp
+ /Users/jguida941/final_project/include/gui/mainwindow.hpp
+ /Users/jguida941/final_project/include/gui/models.hpp
  /opt/homebrew/include/QtCore/q17memory.h
  /opt/homebrew/include/QtCore/q20functional.h
  /opt/homebrew/include/QtCore/q20iterator.h
@@ -3659,8 +3660,8 @@ CMakeFiles/advisor_gui.dir/mainwindow.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/qstatusbar.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qstyle.h
 
-CMakeFiles/advisor_gui.dir/models.cpp.o
- /Users/jguida941/final_project/models.cpp
+CMakeFiles/advisor_gui.dir/src/gui/models.cpp.o
+ /Users/jguida941/final_project/src/gui/models.cpp
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h
@@ -4667,7 +4668,7 @@ CMakeFiles/advisor_gui.dir/models.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdbool.h
  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h
- /Users/jguida941/final_project/models.hpp
+ /Users/jguida941/final_project/include/gui/models.hpp
  /opt/homebrew/include/QtCore/q17memory.h
  /opt/homebrew/include/QtCore/q20functional.h
  /opt/homebrew/include/QtCore/q20memory.h

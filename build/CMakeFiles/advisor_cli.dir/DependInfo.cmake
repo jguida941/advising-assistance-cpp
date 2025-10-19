@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/jguida941/final_project/build/advisor_cli_autogen/mocs_compilation.cpp" "CMakeFiles/advisor_cli.dir/advisor_cli_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/advisor_cli.dir/advisor_cli_autogen/mocs_compilation.cpp.o.d"
-  "/Users/jguida941/final_project/main_cli.cpp" "CMakeFiles/advisor_cli.dir/main_cli.cpp.o" "gcc" "CMakeFiles/advisor_cli.dir/main_cli.cpp.o.d"
+  "/Users/jguida941/final_project/src/cli/main_cli.cpp" "CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.o" "gcc" "CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

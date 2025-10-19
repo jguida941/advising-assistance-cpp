@@ -1,11 +1,11 @@
 /Users/jguida941/final_project/cmake-build-debug/CMakeFiles/catalog_core.dir
-/Users/jguida941/final_project/cmake-build-debug/CMakeFiles/final_project.dir
+/Users/jguida941/final_project/cmake-build-debug/CMakeFiles/advisor_cli.dir
 /Users/jguida941/final_project/cmake-build-debug/CMakeFiles/advisor_gui.dir
 /Users/jguida941/final_project/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/jguida941/final_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/jguida941/final_project/cmake-build-debug/CMakeFiles/catalog_core_autogen_timestamp_deps.dir
 /Users/jguida941/final_project/cmake-build-debug/CMakeFiles/catalog_core_autogen.dir
-/Users/jguida941/final_project/cmake-build-debug/CMakeFiles/final_project_autogen_timestamp_deps.dir
-/Users/jguida941/final_project/cmake-build-debug/CMakeFiles/final_project_autogen.dir
+/Users/jguida941/final_project/cmake-build-debug/CMakeFiles/advisor_cli_autogen_timestamp_deps.dir
+/Users/jguida941/final_project/cmake-build-debug/CMakeFiles/advisor_cli_autogen.dir
 /Users/jguida941/final_project/cmake-build-debug/CMakeFiles/advisor_gui_autogen_timestamp_deps.dir
 /Users/jguida941/final_project/cmake-build-debug/CMakeFiles/advisor_gui_autogen.dir

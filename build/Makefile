@@ -281,30 +281,6 @@ advisor_gui_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_gui.dir/build.make CMakeFiles/advisor_gui.dir/advisor_gui_autogen/mocs_compilation.cpp.s
 .PHONY : advisor_gui_autogen/mocs_compilation.cpp.s
 
-catalog.o: catalog.cpp.o
-.PHONY : catalog.o
-
-# target to build an object file
-catalog.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/catalog_core.dir/build.make CMakeFiles/catalog_core.dir/catalog.cpp.o
-.PHONY : catalog.cpp.o
-
-catalog.i: catalog.cpp.i
-.PHONY : catalog.i
-
-# target to preprocess a source file
-catalog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/catalog_core.dir/build.make CMakeFiles/catalog_core.dir/catalog.cpp.i
-.PHONY : catalog.cpp.i
-
-catalog.s: catalog.cpp.s
-.PHONY : catalog.s
-
-# target to generate assembly for a file
-catalog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/catalog_core.dir/build.make CMakeFiles/catalog_core.dir/catalog.cpp.s
-.PHONY : catalog.cpp.s
-
 catalog_core_autogen/mocs_compilation.o: catalog_core_autogen/mocs_compilation.cpp.o
 .PHONY : catalog_core_autogen/mocs_compilation.o
 
@@ -329,101 +305,125 @@ catalog_core_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/catalog_core.dir/build.make CMakeFiles/catalog_core.dir/catalog_core_autogen/mocs_compilation.cpp.s
 .PHONY : catalog_core_autogen/mocs_compilation.cpp.s
 
-main_cli.o: main_cli.cpp.o
-.PHONY : main_cli.o
+src/catalog/catalog.o: src/catalog/catalog.cpp.o
+.PHONY : src/catalog/catalog.o
 
 # target to build an object file
-main_cli.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_cli.dir/build.make CMakeFiles/advisor_cli.dir/main_cli.cpp.o
-.PHONY : main_cli.cpp.o
+src/catalog/catalog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/catalog_core.dir/build.make CMakeFiles/catalog_core.dir/src/catalog/catalog.cpp.o
+.PHONY : src/catalog/catalog.cpp.o
 
-main_cli.i: main_cli.cpp.i
-.PHONY : main_cli.i
+src/catalog/catalog.i: src/catalog/catalog.cpp.i
+.PHONY : src/catalog/catalog.i
 
 # target to preprocess a source file
-main_cli.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_cli.dir/build.make CMakeFiles/advisor_cli.dir/main_cli.cpp.i
-.PHONY : main_cli.cpp.i
+src/catalog/catalog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/catalog_core.dir/build.make CMakeFiles/catalog_core.dir/src/catalog/catalog.cpp.i
+.PHONY : src/catalog/catalog.cpp.i
 
-main_cli.s: main_cli.cpp.s
-.PHONY : main_cli.s
+src/catalog/catalog.s: src/catalog/catalog.cpp.s
+.PHONY : src/catalog/catalog.s
 
 # target to generate assembly for a file
-main_cli.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_cli.dir/build.make CMakeFiles/advisor_cli.dir/main_cli.cpp.s
-.PHONY : main_cli.cpp.s
+src/catalog/catalog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/catalog_core.dir/build.make CMakeFiles/catalog_core.dir/src/catalog/catalog.cpp.s
+.PHONY : src/catalog/catalog.cpp.s
 
-main_gui.o: main_gui.cpp.o
-.PHONY : main_gui.o
+src/cli/main_cli.o: src/cli/main_cli.cpp.o
+.PHONY : src/cli/main_cli.o
 
 # target to build an object file
-main_gui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_gui.dir/build.make CMakeFiles/advisor_gui.dir/main_gui.cpp.o
-.PHONY : main_gui.cpp.o
+src/cli/main_cli.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_cli.dir/build.make CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.o
+.PHONY : src/cli/main_cli.cpp.o
 
-main_gui.i: main_gui.cpp.i
-.PHONY : main_gui.i
+src/cli/main_cli.i: src/cli/main_cli.cpp.i
+.PHONY : src/cli/main_cli.i
 
 # target to preprocess a source file
-main_gui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_gui.dir/build.make CMakeFiles/advisor_gui.dir/main_gui.cpp.i
-.PHONY : main_gui.cpp.i
+src/cli/main_cli.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_cli.dir/build.make CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.i
+.PHONY : src/cli/main_cli.cpp.i
 
-main_gui.s: main_gui.cpp.s
-.PHONY : main_gui.s
+src/cli/main_cli.s: src/cli/main_cli.cpp.s
+.PHONY : src/cli/main_cli.s
 
 # target to generate assembly for a file
-main_gui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_gui.dir/build.make CMakeFiles/advisor_gui.dir/main_gui.cpp.s
-.PHONY : main_gui.cpp.s
+src/cli/main_cli.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_cli.dir/build.make CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.s
+.PHONY : src/cli/main_cli.cpp.s
 
-mainwindow.o: mainwindow.cpp.o
-.PHONY : mainwindow.o
+src/gui/main_gui.o: src/gui/main_gui.cpp.o
+.PHONY : src/gui/main_gui.o
 
 # target to build an object file
-mainwindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_gui.dir/build.make CMakeFiles/advisor_gui.dir/mainwindow.cpp.o
-.PHONY : mainwindow.cpp.o
+src/gui/main_gui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_gui.dir/build.make CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.o
+.PHONY : src/gui/main_gui.cpp.o
 
-mainwindow.i: mainwindow.cpp.i
-.PHONY : mainwindow.i
+src/gui/main_gui.i: src/gui/main_gui.cpp.i
+.PHONY : src/gui/main_gui.i
 
 # target to preprocess a source file
-mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_gui.dir/build.make CMakeFiles/advisor_gui.dir/mainwindow.cpp.i
-.PHONY : mainwindow.cpp.i
+src/gui/main_gui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_gui.dir/build.make CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.i
+.PHONY : src/gui/main_gui.cpp.i
 
-mainwindow.s: mainwindow.cpp.s
-.PHONY : mainwindow.s
+src/gui/main_gui.s: src/gui/main_gui.cpp.s
+.PHONY : src/gui/main_gui.s
 
 # target to generate assembly for a file
-mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_gui.dir/build.make CMakeFiles/advisor_gui.dir/mainwindow.cpp.s
-.PHONY : mainwindow.cpp.s
+src/gui/main_gui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_gui.dir/build.make CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.s
+.PHONY : src/gui/main_gui.cpp.s
 
-models.o: models.cpp.o
-.PHONY : models.o
+src/gui/mainwindow.o: src/gui/mainwindow.cpp.o
+.PHONY : src/gui/mainwindow.o
 
 # target to build an object file
-models.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_gui.dir/build.make CMakeFiles/advisor_gui.dir/models.cpp.o
-.PHONY : models.cpp.o
+src/gui/mainwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_gui.dir/build.make CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.o
+.PHONY : src/gui/mainwindow.cpp.o
 
-models.i: models.cpp.i
-.PHONY : models.i
+src/gui/mainwindow.i: src/gui/mainwindow.cpp.i
+.PHONY : src/gui/mainwindow.i
 
 # target to preprocess a source file
-models.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_gui.dir/build.make CMakeFiles/advisor_gui.dir/models.cpp.i
-.PHONY : models.cpp.i
+src/gui/mainwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_gui.dir/build.make CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.i
+.PHONY : src/gui/mainwindow.cpp.i
 
-models.s: models.cpp.s
-.PHONY : models.s
+src/gui/mainwindow.s: src/gui/mainwindow.cpp.s
+.PHONY : src/gui/mainwindow.s
 
 # target to generate assembly for a file
-models.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_gui.dir/build.make CMakeFiles/advisor_gui.dir/models.cpp.s
-.PHONY : models.cpp.s
+src/gui/mainwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_gui.dir/build.make CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.s
+.PHONY : src/gui/mainwindow.cpp.s
+
+src/gui/models.o: src/gui/models.cpp.o
+.PHONY : src/gui/models.o
+
+# target to build an object file
+src/gui/models.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_gui.dir/build.make CMakeFiles/advisor_gui.dir/src/gui/models.cpp.o
+.PHONY : src/gui/models.cpp.o
+
+src/gui/models.i: src/gui/models.cpp.i
+.PHONY : src/gui/models.i
+
+# target to preprocess a source file
+src/gui/models.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_gui.dir/build.make CMakeFiles/advisor_gui.dir/src/gui/models.cpp.i
+.PHONY : src/gui/models.cpp.i
+
+src/gui/models.s: src/gui/models.cpp.s
+.PHONY : src/gui/models.s
+
+# target to generate assembly for a file
+src/gui/models.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/advisor_gui.dir/build.make CMakeFiles/advisor_gui.dir/src/gui/models.cpp.s
+.PHONY : src/gui/models.cpp.s
 
 # Help Target
 help:
@@ -448,24 +448,24 @@ help:
 	@echo "... advisor_gui_autogen/mocs_compilation.o"
 	@echo "... advisor_gui_autogen/mocs_compilation.i"
 	@echo "... advisor_gui_autogen/mocs_compilation.s"
-	@echo "... catalog.o"
-	@echo "... catalog.i"
-	@echo "... catalog.s"
 	@echo "... catalog_core_autogen/mocs_compilation.o"
 	@echo "... catalog_core_autogen/mocs_compilation.i"
 	@echo "... catalog_core_autogen/mocs_compilation.s"
-	@echo "... main_cli.o"
-	@echo "... main_cli.i"
-	@echo "... main_cli.s"
-	@echo "... main_gui.o"
-	@echo "... main_gui.i"
-	@echo "... main_gui.s"
-	@echo "... mainwindow.o"
-	@echo "... mainwindow.i"
-	@echo "... mainwindow.s"
-	@echo "... models.o"
-	@echo "... models.i"
-	@echo "... models.s"
+	@echo "... src/catalog/catalog.o"
+	@echo "... src/catalog/catalog.i"
+	@echo "... src/catalog/catalog.s"
+	@echo "... src/cli/main_cli.o"
+	@echo "... src/cli/main_cli.i"
+	@echo "... src/cli/main_cli.s"
+	@echo "... src/gui/main_gui.o"
+	@echo "... src/gui/main_gui.i"
+	@echo "... src/gui/main_gui.s"
+	@echo "... src/gui/mainwindow.o"
+	@echo "... src/gui/mainwindow.i"
+	@echo "... src/gui/mainwindow.s"
+	@echo "... src/gui/models.o"
+	@echo "... src/gui/models.i"
+	@echo "... src/gui/models.s"
 .PHONY : help
 
 

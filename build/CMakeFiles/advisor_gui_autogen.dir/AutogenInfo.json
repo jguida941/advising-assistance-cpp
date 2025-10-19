@@ -417,15 +417,15 @@
 	"HEADERS" : 
 	[
 		[
-			"/Users/jguida941/final_project/mainwindow.hpp",
+			"/Users/jguida941/final_project/include/gui/mainwindow.hpp",
 			"MU",
-			"EWIEGA46WW/moc_mainwindow.cpp",
+			"BMPI5EA7AM/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"/Users/jguida941/final_project/models.hpp",
+			"/Users/jguida941/final_project/include/gui/models.hpp",
 			"MU",
-			"EWIEGA46WW/moc_models.cpp",
+			"BMPI5EA7AM/moc_models.cpp",
 			null
 		]
 	],
@@ -442,7 +442,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/Users/jguida941/final_project",
+		"/Users/jguida941/final_project/include",
 		"/opt/homebrew/lib/QtWidgets.framework/Headers",
 		"/opt/homebrew/lib/QtWidgets.framework",
 		"/opt/homebrew/lib/QtCore.framework/Headers",
@@ -484,7 +484,7 @@
 		"/Users/jguida941/final_project/build/catalog_core_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 14,
+	"PARALLEL" : 1,
 	"PARSE_CACHE_FILE" : "/Users/jguida941/final_project/build/CMakeFiles/advisor_gui_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/opt/homebrew/share/qt/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/opt/homebrew/share/qt/libexec/uic",
@@ -493,9 +493,9 @@
 	"SETTINGS_FILE" : "/Users/jguida941/final_project/build/CMakeFiles/advisor_gui_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/Users/jguida941/final_project/main_gui.cpp", "MU", null ],
-		[ "/Users/jguida941/final_project/mainwindow.cpp", "MU", null ],
-		[ "/Users/jguida941/final_project/models.cpp", "MU", null ]
+		[ "/Users/jguida941/final_project/src/gui/main_gui.cpp", "MU", null ],
+		[ "/Users/jguida941/final_project/src/gui/mainwindow.cpp", "MU", null ],
+		[ "/Users/jguida941/final_project/src/gui/models.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

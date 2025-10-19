@@ -86,30 +86,30 @@ CMakeFiles/advisor_cli.dir/advisor_cli_autogen/mocs_compilation.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/advisor_cli.dir/advisor_cli_autogen/mocs_compilation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jguida941/final_project/build/advisor_cli_autogen/mocs_compilation.cpp -o CMakeFiles/advisor_cli.dir/advisor_cli_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/advisor_cli.dir/main_cli.cpp.o: CMakeFiles/advisor_cli.dir/flags.make
-CMakeFiles/advisor_cli.dir/main_cli.cpp.o: /Users/jguida941/final_project/main_cli.cpp
-CMakeFiles/advisor_cli.dir/main_cli.cpp.o: CMakeFiles/advisor_cli.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jguida941/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/advisor_cli.dir/main_cli.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/advisor_cli.dir/main_cli.cpp.o -MF CMakeFiles/advisor_cli.dir/main_cli.cpp.o.d -o CMakeFiles/advisor_cli.dir/main_cli.cpp.o -c /Users/jguida941/final_project/main_cli.cpp
+CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.o: CMakeFiles/advisor_cli.dir/flags.make
+CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.o: /Users/jguida941/final_project/src/cli/main_cli.cpp
+CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.o: CMakeFiles/advisor_cli.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jguida941/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.o -MF CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.o.d -o CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.o -c /Users/jguida941/final_project/src/cli/main_cli.cpp
 
-CMakeFiles/advisor_cli.dir/main_cli.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/advisor_cli.dir/main_cli.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jguida941/final_project/main_cli.cpp > CMakeFiles/advisor_cli.dir/main_cli.cpp.i
+CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jguida941/final_project/src/cli/main_cli.cpp > CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.i
 
-CMakeFiles/advisor_cli.dir/main_cli.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/advisor_cli.dir/main_cli.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jguida941/final_project/main_cli.cpp -o CMakeFiles/advisor_cli.dir/main_cli.cpp.s
+CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jguida941/final_project/src/cli/main_cli.cpp -o CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.s
 
 # Object files for target advisor_cli
 advisor_cli_OBJECTS = \
 "CMakeFiles/advisor_cli.dir/advisor_cli_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/advisor_cli.dir/main_cli.cpp.o"
+"CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.o"
 
 # External object files for target advisor_cli
 advisor_cli_EXTERNAL_OBJECTS =
 
 advisor_cli: CMakeFiles/advisor_cli.dir/advisor_cli_autogen/mocs_compilation.cpp.o
-advisor_cli: CMakeFiles/advisor_cli.dir/main_cli.cpp.o
+advisor_cli: CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.o
 advisor_cli: CMakeFiles/advisor_cli.dir/build.make
 advisor_cli: libcatalog_core.a
 advisor_cli: CMakeFiles/advisor_cli.dir/link.txt

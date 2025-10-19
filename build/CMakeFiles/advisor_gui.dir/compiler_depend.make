@@ -1011,11 +1011,12 @@ CMakeFiles/advisor_gui.dir/advisor_gui_autogen/mocs_compilation.cpp.o: advisor_g
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
-  /Users/jguida941/final_project/catalog.hpp \
-  /Users/jguida941/final_project/mainwindow.hpp \
-  /Users/jguida941/final_project/models.hpp \
-  advisor_gui_autogen/EWIEGA46WW/moc_mainwindow.cpp \
-  advisor_gui_autogen/EWIEGA46WW/moc_models.cpp \
+  /Users/jguida941/final_project/include/gui/mainwindow.hpp \
+  /Users/jguida941/final_project/include/gui/models.hpp \
+  advisor_gui_autogen/BMPI5EA7AM/moc_mainwindow.cpp \
+  advisor_gui_autogen/BMPI5EA7AM/moc_models.cpp \
+  /Users/jguida941/final_project/include/catalog/catalog.hpp \
+  /Users/jguida941/final_project/include/gui/models.hpp \
   /opt/homebrew/include/QtCore/q17memory.h \
   /opt/homebrew/include/QtCore/q20algorithm.h \
   /opt/homebrew/include/QtCore/q20functional.h \
@@ -1184,7 +1185,7 @@ CMakeFiles/advisor_gui.dir/advisor_gui_autogen/mocs_compilation.cpp.o: advisor_g
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
 
-CMakeFiles/advisor_gui.dir/main_gui.cpp.o: /Users/jguida941/final_project/main_gui.cpp \
+CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.o: /Users/jguida941/final_project/src/gui/main_gui.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -2194,9 +2195,9 @@ CMakeFiles/advisor_gui.dir/main_gui.cpp.o: /Users/jguida941/final_project/main_g
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
-  /Users/jguida941/final_project/catalog.hpp \
-  /Users/jguida941/final_project/mainwindow.hpp \
-  /Users/jguida941/final_project/models.hpp \
+  /Users/jguida941/final_project/include/catalog/catalog.hpp \
+  /Users/jguida941/final_project/include/gui/mainwindow.hpp \
+  /Users/jguida941/final_project/include/gui/models.hpp \
   /opt/homebrew/include/QtCore/q17memory.h \
   /opt/homebrew/include/QtCore/q20functional.h \
   /opt/homebrew/include/QtCore/q20iterator.h \
@@ -2376,7 +2377,7 @@ CMakeFiles/advisor_gui.dir/main_gui.cpp.o: /Users/jguida941/final_project/main_g
   /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
 
-CMakeFiles/advisor_gui.dir/mainwindow.cpp.o: /Users/jguida941/final_project/mainwindow.cpp \
+CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.o: /Users/jguida941/final_project/src/gui/mainwindow.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -3404,9 +3405,9 @@ CMakeFiles/advisor_gui.dir/mainwindow.cpp.o: /Users/jguida941/final_project/main
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
-  /Users/jguida941/final_project/catalog.hpp \
-  /Users/jguida941/final_project/mainwindow.hpp \
-  /Users/jguida941/final_project/models.hpp \
+  /Users/jguida941/final_project/include/catalog/catalog.hpp \
+  /Users/jguida941/final_project/include/gui/mainwindow.hpp \
+  /Users/jguida941/final_project/include/gui/models.hpp \
   /opt/homebrew/include/QtCore/q17memory.h \
   /opt/homebrew/include/QtCore/q20functional.h \
   /opt/homebrew/include/QtCore/q20iterator.h \
@@ -3656,7 +3657,7 @@ CMakeFiles/advisor_gui.dir/mainwindow.cpp.o: /Users/jguida941/final_project/main
   /opt/homebrew/lib/QtWidgets.framework/Headers/qstatusbar.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qstyle.h
 
-CMakeFiles/advisor_gui.dir/models.cpp.o: /Users/jguida941/final_project/models.cpp \
+CMakeFiles/advisor_gui.dir/src/gui/models.cpp.o: /Users/jguida941/final_project/src/gui/models.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -4663,7 +4664,7 @@ CMakeFiles/advisor_gui.dir/models.cpp.o: /Users/jguida941/final_project/models.c
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
-  /Users/jguida941/final_project/models.hpp \
+  /Users/jguida941/final_project/include/gui/models.hpp \
   /opt/homebrew/include/QtCore/q17memory.h \
   /opt/homebrew/include/QtCore/q20functional.h \
   /opt/homebrew/include/QtCore/q20memory.h \
@@ -4877,7 +4878,7 @@ CMakeFiles/advisor_gui.dir/models.cpp.o: /Users/jguida941/final_project/models.c
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h:
 
-/Users/jguida941/final_project/mainwindow.cpp:
+/Users/jguida941/final_project/src/gui/mainwindow.cpp:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h:
 
@@ -4897,7 +4898,7 @@ CMakeFiles/advisor_gui.dir/models.cpp.o: /Users/jguida941/final_project/models.c
 
 /opt/homebrew/include/QtCore/qbasictimer.h:
 
-/Users/jguida941/final_project/main_gui.cpp:
+/Users/jguida941/final_project/src/gui/main_gui.cpp:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow:
 
@@ -4934,6 +4935,8 @@ CMakeFiles/advisor_gui.dir/models.cpp.o: /Users/jguida941/final_project/models.c
 /opt/homebrew/include/QtGui/qcolor.h:
 
 /opt/homebrew/include/QtGui/qbitmap.h:
+
+/opt/homebrew/include/QtCore/qyieldcpu.h:
 
 /opt/homebrew/include/QtCore/qxptype_traits.h:
 
@@ -4974,6 +4977,8 @@ CMakeFiles/advisor_gui.dir/models.cpp.o: /Users/jguida941/final_project/models.c
 /opt/homebrew/include/QtCore/qstring.h:
 
 /opt/homebrew/include/QtCore/qsize.h:
+
+/opt/homebrew/include/QtCore/qsharedpointer_impl.h:
 
 /opt/homebrew/include/QtCore/qshareddata_impl.h:
 
@@ -5057,17 +5062,11 @@ CMakeFiles/advisor_gui.dir/models.cpp.o: /Users/jguida941/final_project/models.c
 
 /opt/homebrew/include/QtCore/q20functional.h:
 
-/opt/homebrew/include/QtCore/qsharedpointer_impl.h:
+/Users/jguida941/final_project/include/catalog/catalog.hpp:
 
-advisor_gui_autogen/EWIEGA46WW/moc_models.cpp:
+advisor_gui_autogen/BMPI5EA7AM/moc_models.cpp:
 
-/opt/homebrew/include/QtCore/qyieldcpu.h:
-
-advisor_gui_autogen/EWIEGA46WW/moc_mainwindow.cpp:
-
-/Users/jguida941/final_project/models.hpp:
-
-/Users/jguida941/final_project/catalog.hpp:
+/Users/jguida941/final_project/include/gui/mainwindow.hpp:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h:
 
@@ -5236,6 +5235,8 @@ advisor_gui_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/runetype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h:
+
+advisor_gui_autogen/BMPI5EA7AM/moc_mainwindow.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/qos.h:
 
@@ -6153,8 +6154,6 @@ advisor_gui_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/exception_ptr.h:
 
-/Users/jguida941/final_project/models.cpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_push_heap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/limits:
@@ -6418,8 +6417,6 @@ advisor_gui_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_sync.h:
-
-/Users/jguida941/final_project/mainwindow.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/month_weekday.h:
 
@@ -6998,6 +6995,10 @@ advisor_gui_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/move.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
+
+/Users/jguida941/final_project/src/gui/models.cpp:
+
+/Users/jguida941/final_project/include/gui/models.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl_fill.h:
 

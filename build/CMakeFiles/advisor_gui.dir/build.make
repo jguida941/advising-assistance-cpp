@@ -86,62 +86,62 @@ CMakeFiles/advisor_gui.dir/advisor_gui_autogen/mocs_compilation.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/advisor_gui.dir/advisor_gui_autogen/mocs_compilation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jguida941/final_project/build/advisor_gui_autogen/mocs_compilation.cpp -o CMakeFiles/advisor_gui.dir/advisor_gui_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/advisor_gui.dir/main_gui.cpp.o: CMakeFiles/advisor_gui.dir/flags.make
-CMakeFiles/advisor_gui.dir/main_gui.cpp.o: /Users/jguida941/final_project/main_gui.cpp
-CMakeFiles/advisor_gui.dir/main_gui.cpp.o: CMakeFiles/advisor_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jguida941/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/advisor_gui.dir/main_gui.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/advisor_gui.dir/main_gui.cpp.o -MF CMakeFiles/advisor_gui.dir/main_gui.cpp.o.d -o CMakeFiles/advisor_gui.dir/main_gui.cpp.o -c /Users/jguida941/final_project/main_gui.cpp
+CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.o: CMakeFiles/advisor_gui.dir/flags.make
+CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.o: /Users/jguida941/final_project/src/gui/main_gui.cpp
+CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.o: CMakeFiles/advisor_gui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jguida941/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.o -MF CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.o.d -o CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.o -c /Users/jguida941/final_project/src/gui/main_gui.cpp
 
-CMakeFiles/advisor_gui.dir/main_gui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/advisor_gui.dir/main_gui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jguida941/final_project/main_gui.cpp > CMakeFiles/advisor_gui.dir/main_gui.cpp.i
+CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jguida941/final_project/src/gui/main_gui.cpp > CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.i
 
-CMakeFiles/advisor_gui.dir/main_gui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/advisor_gui.dir/main_gui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jguida941/final_project/main_gui.cpp -o CMakeFiles/advisor_gui.dir/main_gui.cpp.s
+CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jguida941/final_project/src/gui/main_gui.cpp -o CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.s
 
-CMakeFiles/advisor_gui.dir/mainwindow.cpp.o: CMakeFiles/advisor_gui.dir/flags.make
-CMakeFiles/advisor_gui.dir/mainwindow.cpp.o: /Users/jguida941/final_project/mainwindow.cpp
-CMakeFiles/advisor_gui.dir/mainwindow.cpp.o: CMakeFiles/advisor_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jguida941/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/advisor_gui.dir/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/advisor_gui.dir/mainwindow.cpp.o -MF CMakeFiles/advisor_gui.dir/mainwindow.cpp.o.d -o CMakeFiles/advisor_gui.dir/mainwindow.cpp.o -c /Users/jguida941/final_project/mainwindow.cpp
+CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.o: CMakeFiles/advisor_gui.dir/flags.make
+CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.o: /Users/jguida941/final_project/src/gui/mainwindow.cpp
+CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.o: CMakeFiles/advisor_gui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jguida941/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.o -MF CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.o.d -o CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.o -c /Users/jguida941/final_project/src/gui/mainwindow.cpp
 
-CMakeFiles/advisor_gui.dir/mainwindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/advisor_gui.dir/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jguida941/final_project/mainwindow.cpp > CMakeFiles/advisor_gui.dir/mainwindow.cpp.i
+CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jguida941/final_project/src/gui/mainwindow.cpp > CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.i
 
-CMakeFiles/advisor_gui.dir/mainwindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/advisor_gui.dir/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jguida941/final_project/mainwindow.cpp -o CMakeFiles/advisor_gui.dir/mainwindow.cpp.s
+CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jguida941/final_project/src/gui/mainwindow.cpp -o CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.s
 
-CMakeFiles/advisor_gui.dir/models.cpp.o: CMakeFiles/advisor_gui.dir/flags.make
-CMakeFiles/advisor_gui.dir/models.cpp.o: /Users/jguida941/final_project/models.cpp
-CMakeFiles/advisor_gui.dir/models.cpp.o: CMakeFiles/advisor_gui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jguida941/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/advisor_gui.dir/models.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/advisor_gui.dir/models.cpp.o -MF CMakeFiles/advisor_gui.dir/models.cpp.o.d -o CMakeFiles/advisor_gui.dir/models.cpp.o -c /Users/jguida941/final_project/models.cpp
+CMakeFiles/advisor_gui.dir/src/gui/models.cpp.o: CMakeFiles/advisor_gui.dir/flags.make
+CMakeFiles/advisor_gui.dir/src/gui/models.cpp.o: /Users/jguida941/final_project/src/gui/models.cpp
+CMakeFiles/advisor_gui.dir/src/gui/models.cpp.o: CMakeFiles/advisor_gui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jguida941/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/advisor_gui.dir/src/gui/models.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/advisor_gui.dir/src/gui/models.cpp.o -MF CMakeFiles/advisor_gui.dir/src/gui/models.cpp.o.d -o CMakeFiles/advisor_gui.dir/src/gui/models.cpp.o -c /Users/jguida941/final_project/src/gui/models.cpp
 
-CMakeFiles/advisor_gui.dir/models.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/advisor_gui.dir/models.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jguida941/final_project/models.cpp > CMakeFiles/advisor_gui.dir/models.cpp.i
+CMakeFiles/advisor_gui.dir/src/gui/models.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/advisor_gui.dir/src/gui/models.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jguida941/final_project/src/gui/models.cpp > CMakeFiles/advisor_gui.dir/src/gui/models.cpp.i
 
-CMakeFiles/advisor_gui.dir/models.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/advisor_gui.dir/models.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jguida941/final_project/models.cpp -o CMakeFiles/advisor_gui.dir/models.cpp.s
+CMakeFiles/advisor_gui.dir/src/gui/models.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/advisor_gui.dir/src/gui/models.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jguida941/final_project/src/gui/models.cpp -o CMakeFiles/advisor_gui.dir/src/gui/models.cpp.s
 
 # Object files for target advisor_gui
 advisor_gui_OBJECTS = \
 "CMakeFiles/advisor_gui.dir/advisor_gui_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/advisor_gui.dir/main_gui.cpp.o" \
-"CMakeFiles/advisor_gui.dir/mainwindow.cpp.o" \
-"CMakeFiles/advisor_gui.dir/models.cpp.o"
+"CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.o" \
+"CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.o" \
+"CMakeFiles/advisor_gui.dir/src/gui/models.cpp.o"
 
 # External object files for target advisor_gui
 advisor_gui_EXTERNAL_OBJECTS =
 
 advisor_gui: CMakeFiles/advisor_gui.dir/advisor_gui_autogen/mocs_compilation.cpp.o
-advisor_gui: CMakeFiles/advisor_gui.dir/main_gui.cpp.o
-advisor_gui: CMakeFiles/advisor_gui.dir/mainwindow.cpp.o
-advisor_gui: CMakeFiles/advisor_gui.dir/models.cpp.o
+advisor_gui: CMakeFiles/advisor_gui.dir/src/gui/main_gui.cpp.o
+advisor_gui: CMakeFiles/advisor_gui.dir/src/gui/mainwindow.cpp.o
+advisor_gui: CMakeFiles/advisor_gui.dir/src/gui/models.cpp.o
 advisor_gui: CMakeFiles/advisor_gui.dir/build.make
 advisor_gui: libcatalog_core.a
 advisor_gui: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets

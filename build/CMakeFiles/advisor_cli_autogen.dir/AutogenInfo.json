@@ -428,7 +428,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/Users/jguida941/final_project",
+		"/Users/jguida941/final_project/include",
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1",
 		"/Library/Developer/CommandLineTools/usr/lib/clang/16/include",
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include",
@@ -461,7 +461,7 @@
 		"/Users/jguida941/final_project/build/catalog_core_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 14,
+	"PARALLEL" : 1,
 	"PARSE_CACHE_FILE" : "/Users/jguida941/final_project/build/CMakeFiles/advisor_cli_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/opt/homebrew/share/qt/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/opt/homebrew/share/qt/libexec/uic",
@@ -470,7 +470,7 @@
 	"SETTINGS_FILE" : "/Users/jguida941/final_project/build/CMakeFiles/advisor_cli_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/Users/jguida941/final_project/main_cli.cpp", "MU", null ]
+		[ "/Users/jguida941/final_project/src/cli/main_cli.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

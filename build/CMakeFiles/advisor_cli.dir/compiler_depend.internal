@@ -4,8 +4,8 @@
 CMakeFiles/advisor_cli.dir/advisor_cli_autogen/mocs_compilation.cpp.o
  /Users/jguida941/final_project/build/advisor_cli_autogen/mocs_compilation.cpp
 
-CMakeFiles/advisor_cli.dir/main_cli.cpp.o
- /Users/jguida941/final_project/main_cli.cpp
+CMakeFiles/advisor_cli.dir/src/cli/main_cli.cpp.o
+ /Users/jguida941/final_project/src/cli/main_cli.cpp
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h
@@ -982,5 +982,5 @@ CMakeFiles/advisor_cli.dir/main_cli.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h
- /Users/jguida941/final_project/catalog.hpp
+ /Users/jguida941/final_project/include/catalog/catalog.hpp
 
