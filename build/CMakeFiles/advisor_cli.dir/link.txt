@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/qt@5/lib CMakeFiles/advisor_cli.dir/advisor_cli_autogen/mocs_compilation.cpp.o CMakeFiles/advisor_cli.dir/main_cli.cpp.o -o advisor_cli  libcatalog_core.a

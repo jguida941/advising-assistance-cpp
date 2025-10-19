@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakePythonSetting">
+    <option name="pythonIntegrationState" value="YES" />
+  </component>
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id>C/C++</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript and TypeScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript and TypeScript</id>
+          </State>
+          <State>
+            <id>ES2015 migration aidsJavaScript and TypeScript</id>
+          </State>
+          <State>
+            <id>JavaScript and TypeScript</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Syntax StyleC/C++</id>
+          </State>
+          <State>
+            <id>TypeScriptJavaScript and TypeScript</id>
+          </State>
+          <State>
+            <id>Use preferred 'auto' styleSyntax StyleC/C++</id>
+          </State>
+          <State>
+            <id>Use preferred braces styleSyntax StyleC/C++</id>
+          </State>
+          <State>
+            <id>Use preferred cv-qualifiers styleSyntax StyleC/C++</id>
+          </State>
+          <State>
+            <id>Use preferred declaration styleSyntax StyleC/C++</id>
+          </State>
+          <State>
+            <id>Use preferred include directive styleSyntax StyleC/C++</id>
+          </State>
+          <State>
+            <id>Use preferred initialization styleSyntax StyleC/C++</id>
+          </State>
+          <State>
+            <id>Use preferred overriding function styleSyntax StyleC/C++</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+</project>

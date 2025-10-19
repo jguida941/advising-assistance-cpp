@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_catalog_core_FILE /Users/jguida941/final_project/build/libcatalog_core.a)
+set(__QT_DEPLOY_TARGET_catalog_core_TYPE STATIC_LIBRARY)
+set(__QT_DEPLOY_TARGET_advisor_cli_FILE /Users/jguida941/final_project/build/advisor_cli)
+set(__QT_DEPLOY_TARGET_advisor_cli_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_advisor_gui_FILE /Users/jguida941/final_project/build/advisor_gui)
+set(__QT_DEPLOY_TARGET_advisor_gui_TYPE EXECUTABLE)
