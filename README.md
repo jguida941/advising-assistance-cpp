@@ -49,11 +49,47 @@ After completing the required CLI features, the project was extended substantial
 
 These additions maintain the spirit of the assignment while making the tool more approachable for advisors who prefer a graphical interface.
 
+## Design Choices
+
+- **Hashtable-backed catalog:** The core catalog stores courses in a `std::unordered_map` (`src/catalog/catalog.cpp`) so prerequisite lookups stay `O(1)` regardless of catalog size. IDs are normalized to uppercase on load, which keeps the hash keys consistent between the CLI and GUI.
+- **Cached sorted view:** Alongside the hash table, the loader materializes a `std::vector<std::string>` of course IDs once and reuses it for list rendering and search suggestions. This avoids resorting on every request and keeps the GUI model lightweight.
+- **Load result telemetry:** The `LoadResult` struct bundles success state, warning messages, and missing prerequisites so every front end can surface the same diagnostics without re-reading the file.
+- **GUI state caching:** The Qt layer retains the last-opened path and most recent `LoadResult`, enabling `Reload` and warning banners without additional disk work.
+- **Build caching:** The CMake toolchain is configured for `ccache`, significantly cutting compile times as the project grows (mirrored in the GitHub Actions plan).
+
+## Project Layout
+
+```
+final_project/
+├── CMakeLists.txt
+├── README.md
+├── data/
+│   └── CS 300 ABCU_Advising_Program_Input.csv
+├── include/
+│   ├── catalog/
+│   │   └── catalog.hpp
+│   └── gui/
+│       ├── mainwindow.hpp
+│       └── models.hpp
+└── src/
+    ├── catalog/
+    │   └── catalog.cpp
+    ├── cli/
+    │   └── main_cli.cpp
+    └── gui/
+        ├── main_gui.cpp
+        ├── mainwindow.cpp
+        └── models.cpp
+```
+
+The sample course data now lives under `data/`, and the CLI defaults to `data/CS 300 ABCU_Advising_Program_Input.csv` when no path is supplied.
+
 ## Building and Running
 
 This project uses CMake and requires a C++20 compiler plus Qt 6 Widgets for the GUI target.
 
 ```bash
+# from the project folder, e.g. cd /Users/you/projects/final_project
 # configure (creates a ./build directory containing the CMake files)
 cmake -S . -B build
 
@@ -64,7 +100,7 @@ cmake --build build
 ### Run the Console Advisor
 
 ```bash
-./build/advisor_cli         # binaries live in ./build/ after the cmake --build step
+./build/advisor_cli         # run from the repo root so ./build is found
 # assignment alias still available as ./build/final_project
 ```
 
@@ -73,7 +109,7 @@ From the menu you can load a catalog, list courses, inspect prerequisites, or la
 ### Run the Qt Dashboard Directly
 
 ```bash
-./build/advisor_gui            # macOS/Linux (from the build folder created above)
+./build/advisor_gui            # macOS/Linux (run from the repo root)
 ./build/advisor_gui.exe        # Windows
 ```
 
@@ -99,9 +135,9 @@ COURSE_ADVISOR_THEME=plain ./build/advisor_cli   # keep colours off without touc
 COURSE_ADVISOR_FRAME=unicode ./build/advisor_cli
 COURSE_ADVISOR_FRAME=none ./build/advisor_cli
 
-# Windows (PowerShell) examples (use the build directory produced by CMake)
-cmd /c "set NO_COLOR=1 && build\\advisor_cli.exe"
-powershell -Command "\$env:COURSE_ADVISOR_THEME='light'; .\\build\\advisor_cli.exe"
+# Windows (PowerShell) examples — cd into the repo so build\ exists
+cmd /c "cd /d C:\\path\\to\\final_project && set NO_COLOR=1 && build\\advisor_cli.exe"
+powershell -Command "Set-Location C:\\path\\to\\final_project; $env:COURSE_ADVISOR_THEME='light'; .\\build\\advisor_cli.exe"
 ```
 
 > If you are using an IDE-generated build directory (for example, `cmake-build-debug` in CLion), substitute that folder instead of `build/` in the commands above.
