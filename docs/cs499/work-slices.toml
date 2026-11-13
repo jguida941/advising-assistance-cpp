@@ -1,0 +1,40 @@
+schema_version = 1
+repository = "jguida941/advising-assistance-cpp"
+target_branch = "master"
+selected = "REVIEW-FOUNDATION"
+
+[[slice]]
+id = "REVIEW-FOUNDATION"
+kind = "foundation"
+owner = "Justin Guida"
+status = "review-ready"
+issue = "https://github.com/jguida941/advising-assistance-cpp/issues/1"
+branch = "cs499/issue-1-review-foundation"
+branch_observation = "created"
+pr = "https://github.com/jguida941/advising-assistance-cpp/pull/4"
+human_review = "pending"
+case = "docs/cs499/README.md"
+
+[[slice]]
+id = "ADVISER-CSV"
+kind = "finding"
+owner = "Justin Guida"
+status = "need-human-review"
+issue = "https://github.com/jguida941/advising-assistance-cpp/issues/2"
+branch = "cs499/issue-2-adviser-csv"
+branch_observation = "planned"
+pr = ""
+human_review = "pending"
+case = "docs/cs499/cases/ADVISER-CSV.json"
+
+[[slice]]
+id = "ADVISER-GRAPH"
+kind = "finding"
+owner = "Justin Guida"
+status = "need-human-review"
+issue = "https://github.com/jguida941/advising-assistance-cpp/issues/3"
+branch = "cs499/issue-3-adviser-graph"
+branch_observation = "planned"
+pr = ""
+human_review = "pending"
+case = "docs/cs499/cases/ADVISER-GRAPH.json"

@@ -1,0 +1,29 @@
+TWO-COURSE CYCLE
+Input:
+CSCI100,Course One,CSCI200
+CSCI200,Course Two,CSCI100
+Expected: Proposed scheduling requirement: report the cycle and do not return a complete valid schedule.
+Actual load accepted: true
+Actual course count: 2
+Actual warning count: 0
+Actual missing prerequisite count: 0
+Course CSCI100: title = [Course One]; prerequisites = [CSCI200]
+Course CSCI200: title = [Course Two]; prerequisites = [CSCI100]
+The rows above use the existing sorted display order, not a computed prerequisite schedule.
+
+ORDINARY PREREQUISITE CHAIN
+Input:
+CSCI200,Advanced Course,CSCI100
+CSCI100,Intro Course
+Expected: Existing import behavior: accept both courses with no missing prerequisite. A future schedule should put CSCI100 before CSCI200.
+Actual load accepted: true
+Actual course count: 2
+Actual warning count: 0
+Actual missing prerequisite count: 0
+Course CSCI100: title = [Intro Course]; prerequisites = []
+Course CSCI200: title = [Advanced Course]; prerequisites = [CSCI100]
+The rows above use the existing sorted display order, not a computed prerequisite schedule.
+
+Limit: this example calls loading and lookup. The proposed scheduling expectations above are not computed by this example.
+Actual native catalog code was executed. Qt was not launched and no project source was edited.
+Observation completed. Exit 0 does not mean the proposed enhancement exists.

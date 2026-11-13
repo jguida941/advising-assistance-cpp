@@ -1,0 +1,38 @@
+{
+  "case_id": "ADVISER-CSV",
+  "title": "Define CSV quoting support and preserve complete course titles",
+  "classification": "import enhancement",
+  "requirement_status": "Quoted CSV fields are a proposed supported format; the original grammar was not explicit.",
+  "input": "One row: CSCI100,\"Data, Structures\". Compare it with CSCI100,Data Structures.",
+  "expected": "If quoted CSV fields are supported, the stored title is exactly Data, Structures. The ordinary unquoted title must still load correctly.",
+  "actual": "The current loader accepts the quoted row but stores the title as \"Data and reports an invalid prerequisite token for the remaining text. The ordinary row loads with the full title Data Structures.",
+  "explanation": "The current comma splitter treats a comma inside quotes as a separator. The remaining title text reaches the prerequisite parser, which discards it with a warning.",
+  "limitation": "This is an observed parsing limitation against a proposed format, not proof that the original assignment promised full CSV quoting. Only the actual catalog core is executed; Qt is not launched.",
+  "command": [
+    "python3",
+    "examples/cs499/run_examples.py",
+    "csv"
+  ],
+  "plan": "Specify the supported CSV syntax, then use a small suitable parser or a carefully scoped parser change. Decide how malformed rows affect browseability and scheduling.",
+  "acceptance": [
+    "Quoted commas remain inside the course title when that format is selected.",
+    "Ordinary rows, normalized IDs and valid prerequisites continue to load.",
+    "Malformed quoted fields receive an explicit diagnostic.",
+    "The chosen grammar and invalid-row policy are documented and covered by examples."
+  ],
+  "prerequisite": "Python 3 and g++ with C++20 support. Compilation uses the actual catalog source; all input files and binaries are temporary.",
+  "status": "need-human-review",
+  "source_revision": "7b2b0c4986e76adac8bb37fcdf45806c3fe30843",
+  "source_files": {
+    "src/catalog/catalog.cpp": "9b872990ffa7d4387672f755522322293356e84f0b768e9f58852191c223dde1",
+    "include/catalog/catalog.hpp": "d5206bab58291b0510f7ee4b39e657867bb94ee86b33f349412bb1ed82f83fcc"
+  },
+  "example_files": {
+    "examples/cs499/run_examples.py": "109e115a0a21a931afbe17a1ae1202b065ad9bdd33e2c003d82530b09f617d08",
+    "examples/cs499/CatalogExamples.cpp": "014c4e66a81bf8a76c3d5356568daf2bfe1d67692c4876cfa0695c507e0edb3b"
+  },
+  "evidence_file": "docs/cs499/observations/ADVISER-CSV.txt",
+  "source_urls": [
+    "https://github.com/jguida941/advising-assistance-cpp/blob/7b2b0c4986e76adac8bb37fcdf45806c3fe30843/src/catalog/catalog.cpp#L149-L171"
+  ]
+}
