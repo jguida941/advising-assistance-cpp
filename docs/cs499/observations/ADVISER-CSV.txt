@@ -1,0 +1,26 @@
+QUOTED COURSE TITLE
+Input:
+CSCI100,"Data, Structures"
+Expected: Proposed CSV requirement: preserve Data, Structures as one complete title.
+Actual load accepted: true
+Actual course count: 1
+Actual warning count: 1
+Warning: Skipping invalid prerequisite 'Structures"' for course CSCI100.
+Actual missing prerequisite count: 0
+Course CSCI100: title = ["Data]; prerequisites = []
+The rows above use the existing sorted display order, not a computed prerequisite schedule.
+
+ORDINARY TITLE COMPARISON
+Input:
+CSCI100,Data Structures
+Expected: Existing behavior: accept the course with title Data Structures.
+Actual load accepted: true
+Actual course count: 1
+Actual warning count: 0
+Actual missing prerequisite count: 0
+Course CSCI100: title = [Data Structures]; prerequisites = []
+The rows above use the existing sorted display order, not a computed prerequisite schedule.
+
+Limit: quoted-field support is a proposed enhancement; the original assignment's CSV grammar was not explicit.
+Actual native catalog code was executed. Qt was not launched and no project source was edited.
+Observation completed. Exit 0 does not mean the proposed enhancement exists.
