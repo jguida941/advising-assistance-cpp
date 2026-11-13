@@ -1,0 +1,17 @@
+{
+  "schema": "cs499.receiving@1",
+  "repository": "jguida941/advising-assistance-cpp",
+  "pr": "https://github.com/jguida941/advising-assistance-cpp/pull/4",
+  "target_branch": "master",
+  "merged": true,
+  "merge_sha": "7b5b2159ac154bac1f9e8d47b62a067280922c31",
+  "reviewed_head": "e409c75398106e9b073463354f2222341ec90034",
+  "merged_at": "2026-11-13T18:25:47Z",
+  "default_head": "7b5b2159ac154bac1f9e8d47b62a067280922c31",
+  "default_contains_merge": true,
+  "contains_basis": "Observed default head equals the PR merge commit.",
+  "observed_at": "2026-11-13T18:28:39Z",
+  "source_url": "https://api.github.com/repos/jguida941/advising-assistance-cpp/pulls/4",
+  "default_source_url": "https://api.github.com/repos/jguida941/advising-assistance-cpp/branches/master",
+  "acceptance_scope": "Observed integration only; human review and proposed application changes remain pending."
+}
