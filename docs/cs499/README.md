@@ -39,3 +39,13 @@ This foundation adds examples and review records. It preserves the selected prod
 - [Original reviewed source](https://github.com/jguida941/advising-assistance-cpp/tree/7b2b0c4986e76adac8bb37fcdf45806c3fe30843)
 
 Shared review commands are maintained outside this application repository. These ordinary examples can be run without them. AI assisted in preparing the reports and examples; the records identify the remaining human review.
+
+## Received foundation and planned organization work
+
+[Foundation PR #4](https://github.com/jguida941/advising-assistance-cpp/pull/4) was merged into `master` at `7b5b2159ac154bac1f9e8d47b62a067280922c31`. The [receiving record](receipts/review-foundation-merged.json) retains the observed PR and default-branch facts. The foundation row is delivered in that integration sense; human review of the explanations, proposed behavior and remaining design is still pending.
+
+The planned organization work in [issue #5](https://github.com/jguida941/advising-assistance-cpp/issues/5) keeps the catalog, CLI and GUI source folders. It first verifies a clean source build, then removes generated build output from tracking and adds ignore rules while preserving local files. IDE settings need separate inspection. This plan has not been implemented, and no clean Qt build is claimed. Its named branch is planned, not created.
+
+The work index keeps the last selected foundation row until a new target slice is deliberately selected. The application enhancements above remain separate pending cases. Status fields record observations, not a live GitHub query; follow the linked PR for newer publication state.
+
+[Issue #6](https://github.com/jguida941/advising-assistance-cpp/issues/6), [review PR #7](https://github.com/jguida941/advising-assistance-cpp/pull/7) and branch `cs499/issue-6-receiving-records` track this documentation-only state correction. Their observed review-ready state is recorded in the same work index. No application, test, CI or layout change is included.
