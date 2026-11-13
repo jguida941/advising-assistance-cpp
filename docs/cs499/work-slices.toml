@@ -11,7 +11,7 @@ status = "review-ready"
 issue = "https://github.com/jguida941/advising-assistance-cpp/issues/1"
 branch = "cs499/issue-1-review-foundation"
 branch_observation = "created"
-pr = ""
+pr = "https://github.com/jguida941/advising-assistance-cpp/pull/4"
 human_review = "pending"
 case = "docs/cs499/README.md"
 
