@@ -48,4 +48,4 @@ The planned organization work in [issue #5](https://github.com/jguida941/advisin
 
 The work index keeps the last selected foundation row until a new target slice is deliberately selected. The application enhancements above remain separate pending cases. Status fields record observations, not a live GitHub query; follow the linked PR for newer publication state.
 
-[Issue #6](https://github.com/jguida941/advising-assistance-cpp/issues/6) and branch `cs499/issue-6-receiving-records` track this documentation-only state correction. Its review PR will be recorded in the same work index. No application, test, CI or layout change is included.
+[Issue #6](https://github.com/jguida941/advising-assistance-cpp/issues/6), [review PR #7](https://github.com/jguida941/advising-assistance-cpp/pull/7) and branch `cs499/issue-6-receiving-records` track this documentation-only state correction. Their observed review-ready state is recorded in the same work index. No application, test, CI or layout change is included.
